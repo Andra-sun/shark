@@ -1,0 +1,54 @@
+#topbar-wrapper {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 0.5rem 0;
+}
+
+#topbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#breadcrumb span {
+    color: #0366d6;
+}
+
+#breadcrumb span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#breadcrumb span a:hover {
+    text-decoration: underline;
+}
+
+#topbar-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#search-input {
+    width: 200px;
+}
+
+.btn-link {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
